@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CenarioBuilder",
+  "version": "1.0",
+  "description": "Uma extensão para criar cenários com elementos arrastáveis.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
